@@ -1,0 +1,75 @@
+.socialItem {
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  height: 260px;
+  width: 180px;
+  padding: 24px;
+  display: flex;
+  align-items: end;
+  position: relative;
+  opacity: .5;
+  transition: opacity .3s ease-in-out;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 200px;
+  }
+
+  img {
+    filter: invert(1000);
+    width: 25px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+  }
+
+  span {
+    font-family: "aeonic-light", serif;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  &:after {
+    content: '';
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    border-radius: 50%;
+  }
+
+  &:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    &:after {
+      background-color: #fff;
+    }
+  }
+}
+
+.socialText {
+  max-width: 35%;
+
+  @media (max-width: 768px) {
+    max-width: none;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+
+  p {
+    max-width: 75%;
+
+    @media (max-width: 768px) {
+      max-width: none;
+    }
+  }
+}

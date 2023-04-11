@@ -1,0 +1,29 @@
+.passionTitle {
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 700;
+  max-width: 50%;
+  margin-bottom: 30px;
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+    line-height: 37px;
+    max-width: none;
+    margin-bottom: 10px;
+  }
+}
+
+.passionSubtitle {
+  font-family: 'aeonic-light', serif;
+  font-size: 14px;
+  opacity: .7;
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 5px;
+  }
+}
+
+.passionDescription {
+  font-size: 16px;
+}
