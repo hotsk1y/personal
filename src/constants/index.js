@@ -103,6 +103,6 @@ export const socialLinks = [
   {
     id: 'gmail',
     title: 'Gmail',
-    url: 'hotskyi.aleksandr@gmail.com'
+    url: 'mailto:hotskyi.aleksandr@gmail.com'
   },
 ]
